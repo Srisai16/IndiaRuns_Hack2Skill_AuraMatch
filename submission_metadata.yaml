@@ -4,17 +4,17 @@ team_name: "VectorVanguard"
 
 primary_contact:
   name: "SRISAI SHIVAKOTI"
-  email: "srisai@example.com"   # Update with your registered email
-  phone: "+91-XXXXXXXXXX"        # Update with your registered phone number
+  email: "srisai.shivakoti@gmail.com"
+  phone: "+91-9347722463"
 
 team_members:
   - name: "SRISAI SHIVAKOTI"
-    email: "srisai@example.com"  # Update with your registered email
+    email: "srisai.shivakoti@gmail.com"
     role: "AI Engineer"
 
 # Code and Reproducibility
-github_repo: "https://github.com/YOUR_USERNAME/VectorVanguard-Redrob-Recruiter" # Update with your repo URL
-sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/VectorVanguard-Redrob-Sandbox" # Update with sandbox URL
+github_repo: "https://github.com/Srisai16/IndiaRuns_Hack2Skill_AuraMatch"
+sandbox_link: "https://auramatch.streamlit.app/"
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./VectorVanguard.csv"
 
 # Compute Environment (used for testing and validation)
@@ -22,7 +22,7 @@ compute:
   platform: "Local PC"
   cpu_cores: 8
   ram_gb: 16
-  python_version: "3.11.0"
+  python_version: "3.12.0"
   os: "Windows"
   uses_gpu_for_inference: false
   has_network_during_ranking: false
