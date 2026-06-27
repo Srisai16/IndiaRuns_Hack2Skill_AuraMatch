@@ -1,0 +1,144 @@
+{
+  "CAND_0003582": [
+    "Zero duration expert/advanced skills (3): ['MLflow', 'Photoshop', 'Content Writing']"
+  ],
+  "CAND_0007353": [
+    "Worked 166 months at Wayne Enterprises but dates allow max 33",
+    "Job at Wayne Enterprises is 13.8 years, exceeding total exp of 9.9 years"
+  ],
+  "CAND_0008960": [
+    "Worked 171 months at Stark Industries but dates allow max 21",
+    "Job at Stark Industries is 14.2 years, exceeding total exp of 10.3 years"
+  ],
+  "CAND_0010294": [
+    "Worked 144 months at Mphasis but dates allow max 19",
+    "Job at Mphasis is 12.0 years, exceeding total exp of 8.0 years"
+  ],
+  "CAND_0016000": [
+    "Zero duration expert/advanced skills (5): ['TypeScript', 'Go', 'Docker', 'Hadoop', 'Photoshop']"
+  ],
+  "CAND_0018515": [
+    "Worked 150 months at Initech but dates allow max 39",
+    "Job at Initech is 12.5 years, exceeding total exp of 8.5 years"
+  ],
+  "CAND_0033817": [
+    "Zero duration expert/advanced skills (4): ['JavaScript', 'BigQuery', 'Six Sigma', 'gRPC']"
+  ],
+  "CAND_0033972": [
+    "Zero duration expert/advanced skills (3): ['Airflow', 'OpenCV', 'Figma']"
+  ],
+  "CAND_0035104": [
+    "Worked 114 months at Cognizant but dates allow max 18",
+    "Job at Cognizant is 9.5 years, exceeding total exp of 5.5 years"
+  ],
+  "CAND_0036839": [
+    "Zero duration expert/advanced skills (3): ['SAP', 'GCP', 'Rust']"
+  ],
+  "CAND_0037000": [
+    "Job at CRED is 4.0 years, exceeding total exp of 2.7 years"
+  ],
+  "CAND_0037539": [
+    "Worked 106 months at Stark Industries but dates allow max 49",
+    "Job at Stark Industries is 8.8 years, exceeding total exp of 4.9 years"
+  ],
+  "CAND_0040075": [
+    "Worked 228 months at Pied Piper but dates allow max 39",
+    "Job at Pied Piper is 19.0 years, exceeding total exp of 15.0 years"
+  ],
+  "CAND_0040853": [
+    "Worked 61 months at Initech but dates allow max 13",
+    "Job at Initech is 5.1 years, exceeding total exp of 1.1 years"
+  ],
+  "CAND_0042245": [
+    "Zero duration expert/advanced skills (3): ['Databricks', 'BentoML', 'Vue.js']"
+  ],
+  "CAND_0042453": [
+    "Worked 98 months at Pied Piper but dates allow max 50",
+    "Job at Pied Piper is 8.2 years, exceeding total exp of 4.2 years"
+  ],
+  "CAND_0043721": [
+    "Worked 102 months at Initech but dates allow max 48",
+    "Job at Initech is 8.5 years, exceeding total exp of 4.5 years"
+  ],
+  "CAND_0046649": [
+    "Zero duration expert/advanced skills (5): ['SAP', 'Node.js', 'gRPC', 'Flask', 'Hadoop']"
+  ],
+  "CAND_0046689": [
+    "Zero duration expert/advanced skills (4): ['Node.js', 'SQL', 'gRPC', 'Spark']"
+  ],
+  "CAND_0048740": [
+    "Zero duration expert/advanced skills (3): ['gRPC', 'Angular', 'Content Writing']"
+  ],
+  "CAND_0053734": [
+    "Worked 151 months at Globex Inc but dates allow max 32",
+    "Job at Globex Inc is 12.6 years, exceeding total exp of 8.6 years"
+  ],
+  "CAND_0055685": [
+    "Worked 64 months at Acme Corp but dates allow max 16",
+    "Job at Acme Corp is 5.3 years, exceeding total exp of 1.4 years"
+  ],
+  "CAND_0055792": [
+    "Zero duration expert/advanced skills (3): ['Scrum', 'TTS', 'LoRA']"
+  ],
+  "CAND_0056983": [
+    "Zero duration expert/advanced skills (5): ['Rust', 'Next.js', 'Redis', 'Salesforce CRM', 'MongoDB']"
+  ],
+  "CAND_0057711": [
+    "Worked 140 months at Capgemini but dates allow max 51",
+    "Job at Capgemini is 11.7 years, exceeding total exp of 7.7 years"
+  ],
+  "CAND_0060642": [
+    "Zero duration expert/advanced skills (5): ['Milvus', 'Agile', 'Azure', 'Diffusion Models', 'MongoDB']"
+  ],
+  "CAND_0061722": [
+    "Zero duration expert/advanced skills (5): ['Terraform', 'GANs', 'Milvus', 'MongoDB', 'Speech Recognition']"
+  ],
+  "CAND_0063888": [
+    "Zero duration expert/advanced skills (5): ['Project Management', 'Accounting', 'MLOps', 'React', 'Webpack']"
+  ],
+  "CAND_0064077": [
+    "Worked 169 months at Hooli but dates allow max 51",
+    "Job at Hooli is 14.1 years, exceeding total exp of 10.1 years"
+  ],
+  "CAND_0065096": [
+    "Zero duration expert/advanced skills (4): ['ETL', 'Tally', 'Flask', 'Rust']"
+  ],
+  "CAND_0065710": [
+    "Worked 100 months at Hooli but dates allow max 38",
+    "Job at Hooli is 8.3 years, exceeding total exp of 4.4 years"
+  ],
+  "CAND_0070189": [
+    "Worked 130 months at Wayne Enterprises but dates allow max 39",
+    "Job at Wayne Enterprises is 10.8 years, exceeding total exp of 6.9 years"
+  ],
+  "CAND_0070429": [
+    "Zero duration expert/advanced skills (5): ['MLOps', 'Figma', 'Accounting', 'YOLO', 'Java']"
+  ],
+  "CAND_0072379": [
+    "Zero duration expert/advanced skills (4): ['Azure', 'Redux', 'Illustrator', 'Spark']"
+  ],
+  "CAND_0073853": [
+    "Zero duration expert/advanced skills (5): ['CI/CD', 'Marketing', 'GCP', 'Excel', 'AWS']"
+  ],
+  "CAND_0077239": [
+    "Worked 139 months at Dunder Mifflin but dates allow max 49",
+    "Job at Dunder Mifflin is 11.6 years, exceeding total exp of 7.6 years"
+  ],
+  "CAND_0084182": [
+    "Worked 200 months at Hooli but dates allow max 51",
+    "Job at Hooli is 16.7 years, exceeding total exp of 12.7 years"
+  ],
+  "CAND_0093364": [
+    "Worked 142 months at Globex Inc but dates allow max 26",
+    "Job at Globex Inc is 11.8 years, exceeding total exp of 7.9 years"
+  ],
+  "CAND_0095140": [
+    "Zero duration expert/advanced skills (3): ['Kafka', 'QLoRA', 'CNN']"
+  ],
+  "CAND_0095317": [
+    "Zero duration expert/advanced skills (3): ['Webpack', 'Figma', 'dbt']"
+  ],
+  "CAND_0095480": [
+    "Zero duration expert/advanced skills (4): ['Agile', 'React', 'Snowflake', 'Content Writing']"
+  ]
+}

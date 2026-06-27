@@ -1,0 +1,20 @@
+candidate_id,rank,score,reasoning
+CAND_0000031,1,0.456,"Candidate with adjacent skills in dense embeddings, vector databases and 6.0 years experience. Notice period is 60 days, currently based in Hyderabad, Telangana (willing to relocate)."
+CAND_0000014,2,0.151,"Qualified Frontend Engineer with 8.4 years experience at Zomato. Strong foundational exposure in vector databases; currently based in Hyderabad, Telangana."
+CAND_0000027,3,0.107,"Qualified DevOps Engineer with 3.9 years experience at Infosys. Strong foundational exposure in applied ML; currently based in Kolkata, West Bengal."
+CAND_0000038,4,0.089,"Qualified Java Developer with 6.7 years experience at Swiggy. Strong foundational exposure in vector databases; currently based in Coimbatore, Tamil Nadu."
+CAND_0000045,5,0.048,"Qualified Project Manager with 12.2 years experience at Initech. Strong foundational exposure in applied ML; currently based in Indore, Madhya Pradesh."
+CAND_0000025,6,0.035,"Qualified Frontend Engineer with 7.3 years experience at Tech Mahindra. Strong foundational exposure in applied ML; currently based in Vizag, Andhra Pradesh."
+CAND_0000035,7,0.03,"Qualified Full Stack Developer with 4.3 years experience at Globex Inc. Strong foundational exposure in applied ML; currently based in Hyderabad, Telangana."
+CAND_0000001,8,0.026,Qualified Backend Engineer with 6.9 years experience at Mindtree. Strong foundational exposure in vector databases; currently based in Toronto.
+CAND_0000043,9,0.022,"Qualified Cloud Engineer with 8.3 years experience at Swiggy. Strong foundational exposure in applied ML; currently based in Chandigarh, Chandigarh."
+CAND_0000048,10,0.018,"Qualified Mobile Developer with 9.7 years experience at CRED. Strong foundational exposure in applied ML; currently based in Hyderabad, Telangana."
+CAND_0000044,11,0.015,"Qualified Frontend Engineer with 5.7 years experience at Tech Mahindra. Strong foundational exposure in applied ML; currently based in Indore, Madhya Pradesh."
+CAND_0000010,12,0.012,Qualified Data Engineer with 4.6 years experience at Ola. Strong foundational exposure in applied ML; currently based in London.
+CAND_0000018,13,0.009,"Qualified Frontend Engineer with 6.6 years experience at Acme Corp. Strong foundational exposure in applied ML; currently based in Bhubaneswar, Odisha."
+CAND_0000034,14,0.009,"Qualified Business Analyst with 14.5 years experience at Wipro. Strong foundational exposure in applied ML; currently based in Ahmedabad, Gujarat."
+CAND_0000047,15,0.009,"Qualified Project Manager with 2.4 years experience at TCS. Strong foundational exposure in applied ML; currently based in Kochi, Kerala."
+CAND_0000023,16,0.006,Qualified Software Engineer with 3.7 years experience at Acme Corp. Strong foundational exposure in applied ML; currently based in New York.
+CAND_0000029,17,0.006,"Qualified Business Analyst with 7.2 years experience at Wipro. Strong foundational exposure in applied ML; currently based in Noida, Uttar Pradesh."
+CAND_0000050,18,0.005,"Qualified Business Analyst with 13.5 years experience at Infosys. Strong foundational exposure in applied ML; currently based in Gurgaon, Haryana."
+CAND_0000037,19,0.003,Qualified Business Analyst with 14.3 years experience at Stark Industries. Strong foundational exposure in applied ML; currently based in Dubai.

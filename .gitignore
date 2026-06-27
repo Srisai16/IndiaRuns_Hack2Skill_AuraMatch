@@ -1,0 +1,22 @@
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datasets & Zip Files
+candidates.jsonl
+candidates.jsonl.gz
+\[PUB\] India_runs_data_and_ai_challenge
+\[PUB\] India_runs_data_and_ai_challenge/
+\[PUB\] India_runs_data_and_ai_challenge/*
+\[PUB\] India_runs_data_and_ai_challenge.zip
+__MACOSX/
+.DS_Store
+
+# Temporary Test Outputs
+research/test_sample_output.csv
+research/team_test.csv
+
+# MS Office Temporary Files
+~$*

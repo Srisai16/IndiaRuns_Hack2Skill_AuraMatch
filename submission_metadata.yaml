@@ -1,0 +1,49 @@
+# Redrob Hackathon — Submission Metadata
+# Team Identity
+team_name: "VectorVanguard"
+
+primary_contact:
+  name: "SRISAI SHIVAKOTI"
+  email: "srisai@example.com"   # Update with your registered email
+  phone: "+91-XXXXXXXXXX"        # Update with your registered phone number
+
+team_members:
+  - name: "SRISAI SHIVAKOTI"
+    email: "srisai@example.com"  # Update with your registered email
+    role: "AI Engineer"
+
+# Code and Reproducibility
+github_repo: "https://github.com/YOUR_USERNAME/VectorVanguard-Redrob-Recruiter" # Update with your repo URL
+sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/VectorVanguard-Redrob-Sandbox" # Update with sandbox URL
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./VectorVanguard.csv"
+
+# Compute Environment (used for testing and validation)
+compute:
+  platform: "Local PC"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11.0"
+  os: "Windows"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: true
+  pre_computation_time_minutes: 5
+
+# AI Tools Declaration
+ai_tools_used:
+  - "Gemini"
+  - "Cursor"
+
+ai_usage_summary: |
+  Used Gemini (Antigravity pair-programming agent) for designing the logical rules, implementing the local hybrid ranking algorithms, and generating recruitement reasoning profiles. Standard python scripts run locally; no candidate data was transmitted online during ranking execution.
+
+methodology_summary: |
+  Hybrid vector-lexical ranker with deterministic honeypot pre-filters. Candidates are first filtered for logical and date contradictions (salary flips, job durations exceeding actual date ranges, zero-duration expert skills) to ensure 0% honeypot rate. Clean candidates are ranked using a hybrid scoring matrix: technical skills (dense embeddings, vector databases, RAG, search, evaluation), role fit (5-9 years experience band, current title, and service company penalty), and platform behavioral signals (active logins, recruiter response, interview rates, short notice periods). Top candidates are re-ranked using an LLM-in-the-loop layer (Antigravity) and stored in a lookup database for sub-10 second execution in offline sandboxes.
+
+# Declarations
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
