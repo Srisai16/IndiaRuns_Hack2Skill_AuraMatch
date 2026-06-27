@@ -54,7 +54,13 @@ def load_data(option, uploaded_cands=None):
                     if count >= 10000:
                         break
         else:
-            st.info("💡 **Local Sourcing Only:** The full 100,000 candidate dataset (464 MB) is excluded from the cloud repository due to size limits. To use custom datasets in the cloud, please upload any candidate file (CSV, Excel, JSON) using the 'Upload Custom Candidate File' option, or run AuraMatch locally to index the full database.")
+            st.info("💡 **Local Sourcing Only:** The full 100,000 candidate dataset (464 MB) is excluded from the cloud repository due to size limits. AuraMatch has automatically loaded the 50 sample profiles for demonstration. To use a custom dataset, please select the 'Upload Custom Candidate File' option in the sidebar.")
+            if os.path.exists(sample_data_path):
+                try:
+                    with open(sample_data_path, "r", encoding="utf-8") as f:
+                        candidates = json.load(f)
+                except:
+                    pass
     else:
         if uploaded_cands:
             candidates = uploaded_cands
