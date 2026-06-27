@@ -23,6 +23,8 @@ research/team_test.csv
 
 # PowerPoint Presentation Decks
 *.pptx
+!docs/*.pptx
 
 # Excel shortlists & outputs
 *.xlsx
+!docs/*.xlsx
