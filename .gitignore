@@ -20,3 +20,9 @@ research/team_test.csv
 
 # MS Office Temporary Files
 ~$*
+
+# PowerPoint Presentation Decks
+*.pptx
+
+# Excel shortlists & outputs
+*.xlsx
