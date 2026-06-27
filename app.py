@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 # Global dataset path resolution
-sample_data_path = os.path.join("[PUB] India_runs_data_and_ai_challenge", "India_runs_data_and_ai_challenge", "sample_candidates.json")
+sample_data_path = "data/sample_candidates.json" if os.path.exists("data/sample_candidates.json") else os.path.join("[PUB] India_runs_data_and_ai_challenge", "India_runs_data_and_ai_challenge", "sample_candidates.json")
 full_data_path = os.path.join("[PUB] India_runs_data_and_ai_challenge", "India_runs_data_and_ai_challenge", "candidates.jsonl")
 
 # Base64 helper for local image embedding
@@ -41,7 +41,7 @@ def load_data(option, uploaded_cands=None):
             with open(sample_data_path, "r", encoding="utf-8") as f:
                 candidates = json.load(f)
         else:
-            st.error(f"Sample candidates file not found at {sample_data_path}")
+            st.error(f"Sample candidates file not found at {sample_data_path}. Please ensure data/sample_candidates.json is committed to the repository.")
     elif option == "Full Candidate Pool (10,000 Profiles)":
         if os.path.exists(full_data_path):
             with open(full_data_path, "r", encoding="utf-8") as f:
@@ -54,7 +54,7 @@ def load_data(option, uploaded_cands=None):
                     if count >= 10000:
                         break
         else:
-            st.error(f"Full candidate pool not found at {full_data_path}")
+            st.info("💡 **Local Sourcing Only:** The full 100,000 candidate dataset (464 MB) is excluded from the cloud repository due to size limits. To use custom datasets in the cloud, please upload any candidate file (CSV, Excel, JSON) using the 'Upload Custom Candidate File' option, or run AuraMatch locally to index the full database.")
     else:
         if uploaded_cands:
             candidates = uploaded_cands
