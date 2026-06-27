@@ -10,39 +10,39 @@ Developed by **SRISAI SHIVAKOTI**, this platform solves the limitations of tradi
 
 ## 🌟 Interactive Platform Tour
 
-### 1. Interactive Landing Page
-* **Recruiter-Friendly Value Propositions**: Explains how AuraMatch performs deep career velocity analysis, smart fit calculation, and resume honesty checks in clear, simple language.
-* **Live Tech Skill Simulator**: An interactive playground where recruiters can map equivalent tech skills (e.g. mapping Django/Flask to FastAPI, or traditional search to modern vector search) and see compatibility scores and verdicts dynamically.
-
-![Landing Page](docs/landing_page.png)
+### 1. Interactive Sourcing Landing Page
+![AuraMatch Landing Page](docs/AuraMatch-AI-Recruiter-·-Streamlit-1.png)
+*The landing page introduces AuraMatch's semantic approach to talent matching and features an interactive technical skill equivalency simulator for quick validation.*
 
 ---
 
-### 2. Recruiter Portal Login & SSO
-* **Secure Portal Simulator**: Recruiters can log in with demo credentials (`recruiter@auramatch.ai` / `auramatch2026`).
-* **Functional SSO buttons**: Supports single-click authentication via simulated Google and Microsoft OAuth buttons.
-
-![Login Page](docs/login_page.png)
+### 2. Secure Login & Enterprise SSO
+![AuraMatch Login Screen](docs/AuraMatch-AI-Recruiter-·-Streamlit-2.png)
+*Recruiters can log in securely using traditional password authentication or single-click simulated Google and Microsoft Single Sign-On (SSO).*
 
 ---
 
 ### 3. Recruiter Sourcing Dashboard
-* **Dynamic Job Description (JD) Calibration**: Pasting any Job Description automatically scans it using a comprehensive professional keyword dictionary (`ALL_PROFESSIONAL_KEYWORDS`).
-* **Extracted Experience Band**: Dynamically extracts the target experience range (e.g., `5 to 8 years`).
-* **Calibrated Tech Stacks**: Identifies target technology requirements and updates candidate fit scores instantly.
-* **AI Calibration Expander**: Displays a clear summary of the AI's understanding of the role at the top of the dashboard.
-* **Candidate List & Metrics**: Renders visual statistics on verified vs blocked candidates, notice periods, and expected compensation.
-
-![Recruiter Portal Dashboard](docs/recruiter_portal_dashboard.png)
+![AuraMatch Dashboard](docs/AuraMatch-AI-Recruiter-·-Streamlit-3.png)
+*The primary workspace displaying global candidate metrics, verified vs flagged profiles, notice periods, and expected compensation spreads.*
 
 ---
 
 ### 4. Interactive ATS Resume Analyzer & Live Coach
-* **Universal Candidate Matching**: Paste any JD and any candidate resume (such as the included Business Manager sample) to calculate match percentages.
-* **Dynamic Verdicts**: Generates structured fit verdicts based on the candidate's matched capabilities.
-* **Live Interview Coach**: Dynamically generates tailored, context-specific interview questions focused on the candidate's exact competency gaps.
+![AuraMatch ATS Analyzer](docs/AuraMatch-AI-Recruiter-·-Streamlit-4.png)
+*Recruiters can paste any custom Job Description and candidate resume to instantly analyze compatibility scores, matched capabilities, and skill gaps.*
 
-![ATS Resume Analyzer](docs/ats_resume_analyzer.png)
+---
+
+### 5. AI Sourcing & Custom JD Calibration
+![AuraMatch JD Calibration](docs/AuraMatch-AI-Recruiter-·-Streamlit-5.png)
+*Displays the AI Sourcing calibration card where the parser dynamically scans and understands pasted JDs, automatically calibrating target experience bands and technology stacks.*
+
+---
+
+### 6. Candidate Side-by-Side Comparison
+![AuraMatch Side-by-Side Comparison](docs/AuraMatch-AI-Recruiter-·-Streamlit-6.png)
+*Allows recruiters to perform a granular, side-by-side comparison of any two candidates across all tech stacks, notice periods, salaries, and scores.*
 
 ---
 
@@ -57,10 +57,12 @@ Developed by **SRISAI SHIVAKOTI**, this platform solves the limitations of tradi
 ├── data/                      # Sample datasets
 │   └── sample_candidates.json # 50 profiles for cloud demonstration
 ├── docs/                      # Screenshot documentation
-│   ├── landing_page.png
-│   ├── login_page.png
-│   ├── recruiter_portal_dashboard.png
-│   └── ats_resume_analyzer.png
+│   ├── AuraMatch-AI-Recruiter-·-Streamlit-1.png
+│   ├── AuraMatch-AI-Recruiter-·-Streamlit-2.png
+│   ├── AuraMatch-AI-Recruiter-·-Streamlit-3.png
+│   ├── AuraMatch-AI-Recruiter-·-Streamlit-4.png
+│   ├── AuraMatch-AI-Recruiter-·-Streamlit-5.png
+│   └── AuraMatch-AI-Recruiter-·-Streamlit-6.png
 ├── .gitignore                 # Excludes raw data, system cache, and temp files
 └── README.md                  # Project documentation (this file)
 ```
