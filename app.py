@@ -35,6 +35,7 @@ profile_img_html = f'<img src="data:image/png;base64,{img_b64}" style="width: 32
 # Load candidate data globally defined
 @st.cache_data
 def load_data(option, uploaded_cands=None):
+    import gzip
     candidates = []
     if option == "Sample Candidates (50 Profiles)":
         if os.path.exists(sample_data_path):
@@ -43,6 +44,7 @@ def load_data(option, uploaded_cands=None):
         else:
             st.error(f"Sample candidates file not found at {sample_data_path}. Please ensure data/sample_candidates.json is committed to the repository.")
     elif option == "Full Candidate Pool (10,000 Profiles)":
+        gz_data_path = "data/candidates_10k.jsonl.gz"
         if os.path.exists(full_data_path):
             with open(full_data_path, "r", encoding="utf-8") as f:
                 count = 0
@@ -53,14 +55,21 @@ def load_data(option, uploaded_cands=None):
                     count += 1
                     if count >= 10000:
                         break
+        elif os.path.exists(gz_data_path):
+            try:
+                with gzip.open(gz_data_path, "rt", encoding="utf-8") as f:
+                    count = 0
+                    for line in f:
+                        if not line.strip():
+                            continue
+                        candidates.append(json.loads(line))
+                        count += 1
+                        if count >= 10000:
+                            break
+            except Exception as e:
+                st.error(f"Failed to load compressed candidate database: {str(e)}")
         else:
-            st.info("💡 **Local Sourcing Only:** The full 100,000 candidate dataset (464 MB) is excluded from the cloud repository due to size limits. AuraMatch has automatically loaded the 50 sample profiles for demonstration. To use a custom dataset, please select the 'Upload Custom Candidate File' option in the sidebar.")
-            if os.path.exists(sample_data_path):
-                try:
-                    with open(sample_data_path, "r", encoding="utf-8") as f:
-                        candidates = json.load(f)
-                except:
-                    pass
+            st.error("Full candidate pool dataset not found. Please ensure data/candidates_10k.jsonl.gz is committed.")
     else:
         if uploaded_cands:
             candidates = uploaded_cands
