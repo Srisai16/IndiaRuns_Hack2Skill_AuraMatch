@@ -5,7 +5,7 @@ AuraMatch is a modern, state-managed, multi-page recruitment and talent sourcing
 Developed by **SRISAI SHIVAKOTI**, this platform solves the limitations of traditional recruitment by treating sourcing as a multi-dimensional graph and alignment problem. It evaluates candidates by career trajectory, behavioral signals, deep competency graphs, and profile integrity.
 
 **Live Application URL**: [https://auramatch.streamlit.app/](https://auramatch.streamlit.app/)  
-**Interactive Video Walkthrough**: [Watch Walkthrough Video](docs/AuraMatch_Walkthrough.webm)
+**Interactive Video Walkthrough**: [Watch Walkthrough Video](docs/AuraMatch_Walkthrough.mp4)
 
 ---
 
@@ -135,13 +135,14 @@ For the top-scoring candidates, the system merges numerical scores with a pre-ev
 ├── requirements.txt           # Python application dependencies
 ├── data/                      # Sample datasets
 │   └── sample_candidates.json # 50 profiles for cloud demonstration
-├── docs/                      # Screenshot documentation
+├── docs/                      # Screenshot and walkthrough documentation
 │   ├── AuraMatch-AI-Recruiter-·-Streamlit-1.png
 │   ├── AuraMatch-AI-Recruiter-·-Streamlit-2.png
 │   ├── AuraMatch-AI-Recruiter-·-Streamlit-3.png
 │   ├── AuraMatch-AI-Recruiter-·-Streamlit-4.png
 │   ├── AuraMatch-AI-Recruiter-·-Streamlit-5.png
-│   └── AuraMatch-AI-Recruiter-·-Streamlit-6.png
+│   ├── AuraMatch-AI-Recruiter-·-Streamlit-6.png
+│   └── AuraMatch_Walkthrough.mp4  # 15 MB highly-compressed walkthrough video
 ├── .gitignore                 # Excludes raw data, system cache, and temp files
 └── README.md                  # Project documentation (this file)
 ```
