@@ -4,7 +4,8 @@ AuraMatch is a modern, state-managed, multi-page recruitment and talent sourcing
 
 Developed by **SRISAI SHIVAKOTI**, this platform solves the limitations of traditional recruitment by treating sourcing as a multi-dimensional graph and alignment problem. It evaluates candidates by career trajectory, behavioral signals, deep competency graphs, and profile integrity.
 
-**Live Application URL**: [https://auramatch.streamlit.app/](https://auramatch.streamlit.app/)
+**Live Application URL**: [https://auramatch.streamlit.app/](https://auramatch.streamlit.app/)  
+**Interactive Video Walkthrough**: [Watch Walkthrough Video](docs/AuraMatch_Walkthrough.webm)
 
 ---
 
